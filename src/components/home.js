@@ -4,10 +4,10 @@ function home() {
   {/* w-[350px] lg:w-[400px] */ }
   {/* <span className='absolute w-[300px] h-[300px] shadow-lg shadow-slate-200 rounded-full'></span> */ }
   return (
-    <div name='home' className='h-screen w-full bg-[#000022]'>
+    <div name='home' className='h-screen w-full bg-[#000022] overflow-clip'>
       <div className='w-full h-full flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4'>
 
-        <div className='w-2/4 h-2/4 flex flex-col items-center justify-center md:gap-4'>
+        <div className='w-2/4 h-2/4 flex flex-col items-center justify-center gap-2 md:gap-4'>
           <h3 className='text-white text-lg'>Hi, my name is</h3>
 
           <h4 className='text-center animate-fade-right animate-once text-4xl sm:text-6xl font-bold text-white '>
@@ -53,7 +53,7 @@ function home() {
       <div className='fixed  bottom-4 right-4 cursor-pointer'>
         <div className=' group text-white  flex justify-center items-center '>
           <div className='hidden  group-hover:block'>Download full resume</div>
-          <a href="https://drive.google.com/file/d/1K9CvCL3ItwmW-u51nPDCABCO--QA_TP1/view?usp=sharing" target='_blank' className=' bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' ><IoFileTray></IoFileTray></a>
+          <a href="https://drive.google.com/file/d/1-vT-i1HmohrjysDi_Xsra9B7PQnMs5ua/view?usp=sharing" target='_blank' className=' bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' ><IoFileTray></IoFileTray></a>
 
         </div>
       </div>

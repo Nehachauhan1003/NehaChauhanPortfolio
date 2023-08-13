@@ -58,43 +58,48 @@ function Header(props) {
             <div onClick={handleClick} className='md:hidden z-10 text-white'>
                 {!nav ? <FaBars /> : <FaTimes />}
             </div>
-            <ul
+            <div
                 className={
                     !nav
                         ? 'hidden'
                         : 'absolute top-0 left-0 w-full h-screen bg-[#000022] flex flex-col justify-center items-center text-white'
                 }
             >
-                <li className='py-6 text-4xl text-white'>
-                    <Link onClick={handleClick} to='home' smooth={true} duration={500}>
-                        Home
-                    </Link>
-                </li>
-                <li className='py-6 text-4xl'>
-                    {' '}
-                    <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-                        About
-                    </Link>
-                </li>
-                <li className='py-6 text-4xl'>
-                    {' '}
-                    <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
-                        Skills
-                    </Link>
-                </li>
-                <li className='py-6 text-4xl'>
-                    {' '}
-                    <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-                        Work
-                    </Link>
-                </li>
-                {/* <li className='py-6 text-4xl'>
+                <ul>
+                    <li className='py-6 text-4xl text-white'>
+                        <Link onClick={handleClick} to='home' smooth={true} duration={500}>
+                            Home
+                        </Link>
+                    </li>
+                    <li className='py-6 text-4xl'>
+                        {' '}
+                        <Link onClick={handleClick} to='about' smooth={true} duration={500}>
+                            About
+                        </Link>
+                    </li>
+                    <li className='py-6 text-4xl'>
+                        {' '}
+                        <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
+                            Skills
+                        </Link>
+                    </li>
+                    <li className='py-6 text-4xl'>
+                        {' '}
+                        <Link onClick={handleClick} to='work' smooth={true} duration={500}>
+                            Work
+                        </Link>
+                    </li>
+
+
+                    {/* <li className='py-6 text-4xl'>
                     {' '}
                     <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
                         Contact
                     </Link>
                 </li> */}
-            </ul>
+                </ul>
+
+            </div>
 
             <div className='hidden lg:flex flex-col fixed top-[35%] left-0'>
                 <ul>
