@@ -1,4 +1,6 @@
-
+import BM from '../assets/bm.png';
+import RS from '../assets/RestaurantBranches.jpg';
+import GM from '../assets/GMeetLinkSaver.png';
 export const data = [
     {
         id: 1,
@@ -7,7 +9,7 @@ export const data = [
         heading: "React.js and SpringBoot Project",
         info: "A Fitness App to track BMI and calculate calories.",
         tech: ["ReactJs", "SpringBoot", "HTML", "CSS", "SQL"],
-        img: './bm.png'
+        img: BM
     },
     {
         id: 2,
@@ -16,7 +18,7 @@ export const data = [
         heading: "PHP Project",
         info: "Book a table at a restrant.",
         tech: ["JS", "HTML", "CSS", "SQL", "PHP", "Xampp Server"],
-        img: './RestaurantBranches.jpg'
+        img: RS
     },
     {
         id: 3,
@@ -28,7 +30,7 @@ export const data = [
         heading: "Js Project",
         info: "A Chrome Extension to save all your GMeet Links at one place.",
         tech: ["HTML", "CSS", "Javascript"],
-        img: './GMeetLinkSaver.png'
+        img: GM
 
     },
     // {

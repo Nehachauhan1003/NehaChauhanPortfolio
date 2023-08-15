@@ -13,7 +13,7 @@ function Header(props) {
         <header className=" sticky top-0 z-[20] flex w-full items-center justify-between bg-[#000022] 
         ">
             <div className='ml-4 sm:ml-10'>
-                <img src="./logo2.png" alt="Icon" style={{ width: '80px' }} />
+                <img src={require('../assets/logo2.png')} alt="Icon" style={{ width: '80px' }} />
             </div>
 
             <ul className='hidden md:flex'>

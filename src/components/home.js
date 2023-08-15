@@ -1,10 +1,11 @@
 import React from 'react';
 import { IoFileTray } from 'react-icons/io5';
+import { FaLinkedin, FaGithub, FaHotjar } from 'react-icons/fa';
 function home() {
   {/* w-[350px] lg:w-[400px] */ }
   {/* <span className='absolute w-[300px] h-[300px] shadow-lg shadow-slate-200 rounded-full'></span> */ }
   return (
-    <div name='home' className='h-screen w-full bg-[#000022] overflow-clip'>
+    <div name='home' className='h-screen w-full bg-[#000022]'>
       <div className='w-full h-full flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4'>
 
         <div className='w-2/4 h-2/4 flex flex-col items-center justify-center gap-2 md:gap-4'>
@@ -38,7 +39,7 @@ function home() {
 
           </div>
           <div className='relative flex w-full h-full items-center justify-center rounded-full ml-10 lg:ml-0 scale-90 '  >
-            <img src='./profile.png' className='rounded-full ' ></img>
+            <img src={require('../assets/profile.png')} className='rounded-full ' ></img>
           </div>
         </div>
 
@@ -50,10 +51,35 @@ function home() {
       </div> */}
 
 
-      <div className='fixed  bottom-4 right-4 cursor-pointer'>
-        <div className=' group text-white  flex justify-center items-center '>
-          <div className='hidden  group-hover:block'>Download full resume</div>
-          <a href="https://drive.google.com/file/d/1-vT-i1HmohrjysDi_Xsra9B7PQnMs5ua/view?usp=sharing" target='_blank' className=' bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' ><IoFileTray></IoFileTray></a>
+      <div className='fixed bottom-4 right-4 cursor-pointer flex flex-col gap-2'>
+
+        <div className='sm:hidden group text-white flex justify-end'>
+          <div className='left hidden group-hover:block'>GeeksForGeeks</div>
+          <a className='bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://www.linkedin.com/in/nehachauhan1999/' target="_blank">
+            <FaHotjar></FaHotjar>
+          </a>
+
+        </div>
+
+        <div className='sm:hidden group text-white  flex justify-end'>
+          <div className='hidden  group-hover:block'>LinkedIn</div>
+          <a className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://www.linkedin.com/in/nehachauhan1999/' target="_blank">
+            <FaLinkedin></FaLinkedin>
+          </a>
+
+        </div>
+
+        <div className='sm:hidden group text-white  flex justify-end'>
+          <div className='hidden  group-hover:block'>Github</div>
+          <a className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://www.linkedin.com/in/nehachauhan1999/' target="_blank">
+            <FaGithub></FaGithub>
+          </a>
+
+        </div>
+
+        <div className=' group text-white  flex justify-end'>
+          <div className='hidden group-hover:block'>Download full resume</div>
+          <a href="https://drive.google.com/file/d/1-vT-i1HmohrjysDi_Xsra9B7PQnMs5ua/view?usp=sharing" target='_blank' className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' ><IoFileTray></IoFileTray></a>
 
         </div>
       </div>

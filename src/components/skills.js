@@ -21,7 +21,7 @@ const skills = () => {
                 <div className='w-full grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-6 text-center items-center py-8 '>
 
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full rounded-md'>
-                        <img className='group-hover:hidden w-20 mx-auto mt-2' src="./java.png" alt="HTML icon" />
+                        <img className='group-hover:hidden w-20 mx-auto mt-2' src={require('../assets/java.png')} alt="HTML icon" />
                         <p className='group-hover:hidden my-4 text-white'>JAVA</p>
                         <div className='hidden group-hover:block my-auto'>
                             <div className='flex'>
@@ -35,7 +35,7 @@ const skills = () => {
                         </div>
                     </div>
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full  rounded-md'>
-                        <img className='group-hover:hidden w-20 mx-auto mt-2' src="./srping.png" alt="HTML icon" />
+                        <img className='group-hover:hidden w-20 mx-auto mt-2' src={require('../assets/srping.png')} alt="HTML icon" />
                         <p className='group-hover:hidden my-4 text-white'>SPRINGBOOT</p>
                         <div className='hidden group-hover:block my-auto '>
                             <div className='flex mb-2'>
@@ -50,7 +50,7 @@ const skills = () => {
                     </div>
 
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full  rounded-md'>
-                        <img className='group-hover:hidden w-20 mx-auto mt-2' src="./react.png" alt="HTML icon" />
+                        <img className='group-hover:hidden w-20 mx-auto mt-2' src={require('../assets/react.png')} alt="HTML icon" />
                         <p className='group-hover:hidden my-4 text-white'>REACT</p>
                         <div className='hidden group-hover:block my-auto'>
                             <div className='flex mb-2'>
@@ -65,7 +65,7 @@ const skills = () => {
                     </div>
 
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full  rounded-md'>
-                        <img className='group-hover:hidden w-20 mx-auto mt-2' src="./javascript.png" alt="HTML icon" />
+                        <img className='group-hover:hidden w-20 mx-auto mt-2' src={require('../assets/javascript.png')} alt="HTML icon" />
                         <p className='group-hover:hidden my-4 text-white'>JAVASCRIPT</p>
                         <div className='hidden group-hover:block my-auto '>
                             <div className='flex mb-2'>
@@ -80,7 +80,7 @@ const skills = () => {
                     </div>
 
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full  rounded-md'>
-                        <img className='group-hover:hidden w-20 mx-auto mt-2' src='./html.png' alt="HTML icon" />
+                        <img className='group-hover:hidden w-20 mx-auto mt-2' src={require('../assets/html.png')} alt="HTML icon" />
                         <p className='group-hover:hidden my-4 text-white'>HTML</p>
                         <div className='hidden group-hover:block my-auto'>
                             <div className='flex mb-2'>
@@ -94,7 +94,7 @@ const skills = () => {
                         </div>
                     </div>
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full  rounded-md'>
-                        <img className='group-hover:hidden w-20 mx-auto mt-2' src="./css.png" alt="HTML icon" />
+                        <img className='group-hover:hidden w-20 mx-auto mt-2' src={require('../assets/css.png')} alt="HTML icon" />
                         <p className='group-hover:hidden my-4 text-white'>CSS</p>
                         <div className='hidden group-hover:block my-auto'>
                             <div className='flex mb-2'>
@@ -110,7 +110,7 @@ const skills = () => {
 
 
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full  rounded-md'>
-                        <img className='group-hover:hidden w-20 mx-auto mt-2' src="./git.png" alt="HTML icon" />
+                        <img className='group-hover:hidden w-20 mx-auto mt-2' src={require('../assets/git.png')} alt="HTML icon" />
                         <p className='group-hover:hidden my-4 text-white'>GITHUB</p>
                         <div className='hidden group-hover:block my-auto'>
                             <div className='flex mb-2'>
@@ -124,7 +124,7 @@ const skills = () => {
                         </div>
                     </div>
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full  rounded-md'>
-                        <img className='group-hover:hidden w-20 mx-auto mt-2' src="./tailwind.png" alt="HTML icon" />
+                        <img className='group-hover:hidden w-20 mx-auto mt-2' src={require('../assets/tailwind.png')} alt="HTML icon" />
                         <p className='group-hover:hidden my-4 text-white'>TAILWIND</p>
                         <div className='hidden group-hover:block my-auto'>
                             <div className='flex mb-2'>

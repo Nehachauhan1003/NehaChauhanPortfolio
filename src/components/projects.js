@@ -1,15 +1,12 @@
 import React from 'react';
 import { data } from '../data/data.js';
 import { useState } from 'react';
-function Projects(props) {
-
-
-    // projects file
+function Projects() {
     const project = data;
-    //setProject(data);
-
     const [val, setValue] = useState(1);
+    // md:w-[700px] lg:w-[1000px]
 
+    //  w-[380px] h-[200px] md:w-[600px] md:h-[300px]
 
     return (
         <div name='projects' className='h-screen w-full flex flex-col items-center bg-[#000022]'>
@@ -19,7 +16,7 @@ function Projects(props) {
                         Projects
                     </p>
                 </div>
-                <div className='w-full md:w-[700px] lg:w-[1000px] flex flex-col justify-center  items-center rounded-md shadow-lg shadow-slate-800 overflow-hidden '>
+                <div className='w-full sm:w-4/5  flex flex-col justify-center  items-center rounded-md shadow-lg shadow-slate-800 overflow-auto '>
                     <div className='w-full flex item-center justify-center bg-slate-700 bg-opacity-50 p-2'>
                         <button className=' text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B]  focus:bg-opacity-60 border-[#89CE3B] px-8 border-r-2 ' onClick={() => setValue(1)} >BrillifyMe React App</button>
 
@@ -31,15 +28,15 @@ function Projects(props) {
                     </div>
                     <div className='w-full h-full justify-center items-center py-4'>
 
-                        <div className='flex flex-col w-full m-auto'>
+                        <div className=' flex flex-col w-full m-auto'>
                             {project.map((item, index) => (item.id === val ?
                                 <div key={index} className="group rounded-md flex flex-col mx-auto gap-2">
-                                    <div className='absolute w-[380px] h-[200px] w-[600px] md:h-[300px]  '>
-                                        <img src={item.img} className='absolute  w-[380px] h-[200px] md:w-[600px] md:h-[300px]'></img>
+                                    <div className='absolute w-[380px] h-[200px] md:w-[600px] md:h-[300px]  '>
+                                        <img src={item.img} className='absolute object-cover  w-[380px] h-[200px] md:w-[600px] md:h-[300px] '></img>
 
 
                                     </div>
-                                    <div className="realtive w-[380px] h-[200px] md:w-[600px] md:h-[300px] bg-slate-700  text-center flex items-center justify-center group-hover:z-0 bg-opacity-60">
+                                    <div className="realtive bg-slate-700  text-center flex items-center justify-center group-hover:z-0 bg-opacity-60 w-[380px] h-[200px] md:w-[600px] md:h-[300px]">
                                         <a href={item.github} target="_blank">
                                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
                                             >
@@ -61,14 +58,6 @@ function Projects(props) {
 
                                     </div>
 
-                                    {/* <div className=" text-center">
-                                        <a href={item.github} target="_blank">
-                                            <button className="text-center rounded-lg px-4 py-2 m-2 bg-white text-gray-700 font-bold text-lg"
-                                            >
-                                                Code
-                                            </button>
-                                        </a>
-                                    </div> */}
 
 
                                 </div> : ""
