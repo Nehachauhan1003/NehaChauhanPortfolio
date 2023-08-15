@@ -12,16 +12,13 @@ function Header(props) {
     return (
         <header className=" sticky top-0 z-[20] flex w-full items-center justify-between bg-[#000022] 
         ">
-            <div className='ml-4 sm:ml-10'>
+            <div className='sm:ml-10'>
                 <img src={require('../assets/logo2.png')} alt="Icon" style={{ width: '80px' }} />
             </div>
 
             <ul className='hidden md:flex'>
                 <li>
                     <Link to='home' smooth={true} duration={500} className="px-5 py-2.5 relative rounded group overflow-hidden text-base border-e-2 border-b-2 border-[#89CE3B] text-white inline-block ">
-
-                        {/* <span class="absolute inset-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0  group-hover:h-full"></span>
-                        */}
                         <span class="absolute inset-0 flex w-0 h-0 mb-0 transition-all duration-200 ease-out transform bg-[#93d24b] group-hover:h-full group-hover:w-full"></span>
 
                         <span className="relative group-hover:text-white ">Home</span>
@@ -66,7 +63,7 @@ function Header(props) {
                 }
             >
                 <ul>
-                    <li className='py-6 text-4xl text-white'>
+                    <li className='py-6 text-4xl'>
                         <Link onClick={handleClick} to='home' smooth={true} duration={500}>
                             Home
                         </Link>

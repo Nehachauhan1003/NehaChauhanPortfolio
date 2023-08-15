@@ -53,7 +53,7 @@ function home() {
 
       <div className='fixed bottom-4 right-4 cursor-pointer flex flex-col gap-2'>
 
-        <div className='sm:hidden group text-white flex justify-end'>
+        <div className='md:hidden group text-white flex justify-end'>
           <div className='left hidden group-hover:block'>GeeksForGeeks</div>
           <a className='bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://www.linkedin.com/in/nehachauhan1999/' target="_blank">
             <FaHotjar></FaHotjar>
@@ -61,7 +61,7 @@ function home() {
 
         </div>
 
-        <div className='sm:hidden group text-white  flex justify-end'>
+        <div className='md:hidden group text-white  flex justify-end'>
           <div className='hidden  group-hover:block'>LinkedIn</div>
           <a className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://www.linkedin.com/in/nehachauhan1999/' target="_blank">
             <FaLinkedin></FaLinkedin>
@@ -69,7 +69,7 @@ function home() {
 
         </div>
 
-        <div className='sm:hidden group text-white  flex justify-end'>
+        <div className='md:hidden group text-white  flex justify-end'>
           <div className='hidden  group-hover:block'>Github</div>
           <a className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://www.linkedin.com/in/nehachauhan1999/' target="_blank">
             <FaGithub></FaGithub>
