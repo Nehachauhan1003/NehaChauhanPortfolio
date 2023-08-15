@@ -4,8 +4,6 @@ import { useState } from 'react';
 function Projects() {
     const project = data;
     const [val, setValue] = useState(1);
-    // md:w-[700px] lg:w-[1000px]
-    //  w-[380px] h-[200px] md:w-[600px] md:h-[300px]
 
     return (
         <div name='projects' className='h-screen w-full flex flex-col items-center bg-[#000022]'>
@@ -14,7 +12,12 @@ function Projects() {
                     <p className='text-4xl font-bold inline border-b-4 border-[#89CE3B] text-white'>
                         Projects
                     </p>
+
+                    <p className='sm:hidden text-white text-lg'>// Tap on the images to view code </p>
                 </div>
+                {/* <div className='w-full h-full sm:hidden text-white text-lg'>
+                    <p>// Tap on the images to view code </p>
+                </div> */}
                 <div className='w-full h-fit sm:w-4/5  flex flex-col justify-center  items-center rounded-md shadow-lg shadow-slate-800 overflow-auto '>
                     <div className='w-full flex item-center justify-center bg-slate-700 bg-opacity-50 p-3'>
                         <button className='text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B]  focus:bg-opacity-60 border-[#89CE3B] px-3 sm:px-8 border-r-2' onClick={() => setValue(1)} >BrillifyMe React App</button>

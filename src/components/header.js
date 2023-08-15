@@ -82,8 +82,8 @@ function Header(props) {
                     </li>
                     <li className='py-6 text-4xl'>
                         {' '}
-                        <Link onClick={handleClick} to='work' smooth={true} duration={500}>
-                            Work
+                        <Link onClick={handleClick} to='projects' smooth={true} duration={500}>
+                            Projects
                         </Link>
                     </li>
 

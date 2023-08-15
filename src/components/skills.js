@@ -17,7 +17,9 @@ const skills = () => {
                         Skills
                     </p>
                 </div>
-
+                <div className='w-full h-full sm:hidden text-white text-lg'>
+                    <p>// Tap on the images to view ratings </p>
+                </div>
                 <div className='w-full grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-6 text-center items-center py-8 '>
 
                     <div className='bg-opacity-60 bg-slate-700 flex flex-col items-center hover:scale-90 group w-full h-full rounded-md'>

@@ -8,15 +8,15 @@ function home() {
     <div name='home' className='h-screen w-full bg-[#000022]'>
       <div className='w-full h-full flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4'>
 
-        <div className='w-2/4 h-2/4 flex flex-col items-center justify-center gap-2 md:gap-4'>
-          <h3 className='text-white text-lg'>Hi, my name is</h3>
+        <div className='w-full h-2/6 sm:w-2/4 sm:h-2/4 flex flex-col items-center justify-center gap-2 md:gap-4'>
+          <h3 className='text-white text-xl'>Hi, my name is</h3>
 
           <h4 className='text-center animate-fade-right animate-once text-4xl sm:text-6xl font-bold text-white '>
             Neha Chauhan
           </h4>
 
           <div className='animate-fade-left animate-once'>
-            <h3 className='text-center sm:text-4xl font-bold text-white '>
+            <h3 className='text-center text-xl sm:text-4xl font-bold text-white '>
               I'm a
 
               <span class="relative text-[#85CB33]"> Full Stack Developer</span>
@@ -27,18 +27,18 @@ function home() {
 
 
 
-          <h5 className='text-white  sm:text-lg  max-w-[700px]'>
+          {/* <h5 className='text-white  sm:text-lg  max-w-[700px]'>
             Want to know more about me ?
-          </h5>
+          </h5> */}
 
         </div>
 
-        <div className='block relative w-fit  h-fit'>
-          <div className='hidden absolute lg:block -inset-2 rounded-full bg-slate-900 opacity-75 blur animate-pulse'>
+        <div className='flex relative w-fit  h-fit'>
+          <div className='hidden absolute lg:block -inset-2 rounded-full bg-slate-900 blur animate-pulse'>
 
 
           </div>
-          <div className='relative flex w-full h-full items-center justify-center rounded-full ml-10 lg:ml-0 scale-90 '  >
+          <div className='relative flex w-full h-full items-center justify-center rounded-full scale-90'  >
             <img src={require('../assets/profile.png')} className='rounded-full ' ></img>
           </div>
         </div>
@@ -46,16 +46,14 @@ function home() {
 
 
       </div>
-      {/* <div className='mt-[70px] animate-bounce animate-infinite sm:w-12 sm:h-12 cursor-pointer'>
-        <Link to='about' smooth={true} duration={500}><FaArrowCircleDown size={70} color='white' /></Link>
-      </div> */}
+
 
 
       <div className='fixed bottom-4 right-4 cursor-pointer flex flex-col gap-2'>
 
         <div className='md:hidden group text-white flex justify-end'>
           <div className='left hidden group-hover:block'>GeeksForGeeks</div>
-          <a className='bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://www.linkedin.com/in/nehachauhan1999/' target="_blank">
+          <a className='bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://auth.geeksforgeeks.org/user/nehachauhan1003/' target="_blank">
             <FaHotjar></FaHotjar>
           </a>
 
@@ -71,7 +69,7 @@ function home() {
 
         <div className='md:hidden group text-white  flex justify-end'>
           <div className='hidden  group-hover:block'>Github</div>
-          <a className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://www.linkedin.com/in/nehachauhan1999/' target="_blank">
+          <a className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' href='https://github.com/Nehachauhan1003' target="_blank">
             <FaGithub></FaGithub>
           </a>
 
