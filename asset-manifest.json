@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NehaChauhanPortfolio/static/css/main.f5ef5132.css",
-    "main.js": "/NehaChauhanPortfolio/static/js/main.4aa22de0.js",
+    "main.css": "/NehaChauhanPortfolio/static/css/main.d54c74d6.css",
+    "main.js": "/NehaChauhanPortfolio/static/js/main.173e41f7.js",
     "static/js/787.128fc6e9.chunk.js": "/NehaChauhanPortfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/RestaurantBranches.jpg": "/NehaChauhanPortfolio/static/media/RestaurantBranches.258cb9c240020e8a4756.jpg",
     "static/media/GMeetLinkSaver.png": "/NehaChauhanPortfolio/static/media/GMeetLinkSaver.71d642fc268ed6a8934e.png",
@@ -17,12 +17,12 @@
     "static/media/java.png": "/NehaChauhanPortfolio/static/media/java.4f5b428dc7961b2dba82.png",
     "static/media/javascript.png": "/NehaChauhanPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/NehaChauhanPortfolio/index.html",
-    "main.f5ef5132.css.map": "/NehaChauhanPortfolio/static/css/main.f5ef5132.css.map",
-    "main.4aa22de0.js.map": "/NehaChauhanPortfolio/static/js/main.4aa22de0.js.map",
+    "main.d54c74d6.css.map": "/NehaChauhanPortfolio/static/css/main.d54c74d6.css.map",
+    "main.173e41f7.js.map": "/NehaChauhanPortfolio/static/js/main.173e41f7.js.map",
     "787.128fc6e9.chunk.js.map": "/NehaChauhanPortfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5ef5132.css",
-    "static/js/main.4aa22de0.js"
+    "static/css/main.d54c74d6.css",
+    "static/js/main.173e41f7.js"
   ]
 }
