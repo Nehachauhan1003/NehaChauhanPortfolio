@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/NehaChauhanPortfolio/static/css/main.d54c74d6.css",
-    "main.js": "/NehaChauhanPortfolio/static/js/main.173e41f7.js",
+    "main.css": "/NehaChauhanPortfolio/static/css/main.6a1bd6ad.css",
+    "main.js": "/NehaChauhanPortfolio/static/js/main.41cf829a.js",
     "static/js/787.128fc6e9.chunk.js": "/NehaChauhanPortfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/cicular-slider.png": "/NehaChauhanPortfolio/static/media/cicular-slider.df3f68c1e147ee01b951.png",
     "static/media/RestaurantBranches.jpg": "/NehaChauhanPortfolio/static/media/RestaurantBranches.258cb9c240020e8a4756.jpg",
     "static/media/GMeetLinkSaver.png": "/NehaChauhanPortfolio/static/media/GMeetLinkSaver.71d642fc268ed6a8934e.png",
     "static/media/bm.png": "/NehaChauhanPortfolio/static/media/bm.56a167df84765a78a185.png",
+    "static/media/express_js.png": "/NehaChauhanPortfolio/static/media/express_js.694671f4c4883a1a91ed.png",
     "static/media/react.png": "/NehaChauhanPortfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/mon.png": "/NehaChauhanPortfolio/static/media/mon.a05bdd8b7da6705021df.png",
+    "static/media/nodejs.png": "/NehaChauhanPortfolio/static/media/nodejs.64b87a2e2545edb79cb0.png",
     "static/media/logo2.png": "/NehaChauhanPortfolio/static/media/logo2.b4ef04f4b7ee6ea24667.png",
     "static/media/srping.png": "/NehaChauhanPortfolio/static/media/srping.20c30e27b11bbae88df1.png",
+    "static/media/mysql.png": "/NehaChauhanPortfolio/static/media/mysql.74f6d77c7981fa0d3fe8.png",
     "static/media/profile.png": "/NehaChauhanPortfolio/static/media/profile.209d330dfdde292819af.png",
     "static/media/git.png": "/NehaChauhanPortfolio/static/media/git.0c4739f09734f9875248.png",
     "static/media/html.png": "/NehaChauhanPortfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
@@ -17,12 +22,12 @@
     "static/media/java.png": "/NehaChauhanPortfolio/static/media/java.4f5b428dc7961b2dba82.png",
     "static/media/javascript.png": "/NehaChauhanPortfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/NehaChauhanPortfolio/index.html",
-    "main.d54c74d6.css.map": "/NehaChauhanPortfolio/static/css/main.d54c74d6.css.map",
-    "main.173e41f7.js.map": "/NehaChauhanPortfolio/static/js/main.173e41f7.js.map",
+    "main.6a1bd6ad.css.map": "/NehaChauhanPortfolio/static/css/main.6a1bd6ad.css.map",
+    "main.41cf829a.js.map": "/NehaChauhanPortfolio/static/js/main.41cf829a.js.map",
     "787.128fc6e9.chunk.js.map": "/NehaChauhanPortfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d54c74d6.css",
-    "static/js/main.173e41f7.js"
+    "static/css/main.6a1bd6ad.css",
+    "static/js/main.41cf829a.js"
   ]
 }
