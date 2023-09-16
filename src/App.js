@@ -8,7 +8,7 @@ import Contact from './components/contact.js';
 import Footer from './components/footer.js';
 function App() {
   return (
-    <div>
+    <div className='snap-y snap-mandatory overflow-auto h-screen w-full'>
       <Header />
       <Home />
       <About />

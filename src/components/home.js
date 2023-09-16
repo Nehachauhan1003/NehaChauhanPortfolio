@@ -5,7 +5,7 @@ function home() {
   {/* w-[350px] lg:w-[400px] */ }
   {/* <span className='absolute w-[300px] h-[300px] shadow-lg shadow-slate-200 rounded-full'></span> */ }
   return (
-    <div name='home' className='h-screen w-full bg-[#000022]'>
+    <div name='home' className='h-screen w-full bg-[#000022] '>
       <div className='w-full h-full flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4'>
 
         <div className='w-full h-2/6 sm:w-2/4 sm:h-2/4 flex flex-col items-center justify-center gap-2 md:gap-4'>
@@ -77,7 +77,7 @@ function home() {
 
         <div className=' group text-white  flex justify-end'>
           <div className='hidden group-hover:block'>Download full resume</div>
-          <a href="https://drive.google.com/file/d/1-vT-i1HmohrjysDi_Xsra9B7PQnMs5ua/view?usp=sharing" target='_blank' className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' ><IoFileTray></IoFileTray></a>
+          <a href="https://drive.google.com/file/d/1c4COlFWRR3l06dRJ7Ju04e1SBEBnJ0ET/view?usp=sharing" target='_blank' className='right-0 bg-slate-900 bg-opacity-60  text-[#85CB33] p-2 text-2xl md:text-4xl' ><IoFileTray></IoFileTray></a>
 
         </div>
       </div>

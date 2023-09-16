@@ -1,6 +1,7 @@
 import BM from '../assets/bm.png';
 import RS from '../assets/RestaurantBranches.jpg';
 import GM from '../assets/GMeetLinkSaver.png';
+import CS from '../assets/cicular-slider.png';
 export const data = [
     {
         id: 1,
@@ -33,17 +34,15 @@ export const data = [
         img: GM
 
     },
-    // {
-    //     id: 4,
-    //     name: "Something",
-    //     github: "",
-    //     heading: "React.js and SpringBoot Project",
-    //     info: "A Fitness App to track BMI and calculate calories.",
-    //     tech: ["ReactJs", "SpringBoot", "HTML", "CSS", "SQL"],
-    //     info: "A Fitness App to track BMI and calculate calories.",
-    //     tech: ["ReactJs", "SpringBoot", "HTML", "CSS", "SQL"],
-    //     img: './java.png'
-    // },
+    {
+        id: 4,
+        name: "Circular-slider",
+        github: "",
+        heading: "React.js and Tailwindcss frontend project",
+        info: "Circular-Slider for your website",
+        tech: ["ReactJs", "HTML", "Tailwindcss"],
+        img: CS
+    }
 
 
 ]

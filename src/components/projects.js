@@ -20,11 +20,13 @@ function Projects() {
                 </div> */}
                 <div className='w-full h-fit sm:w-4/5  flex flex-col justify-center  items-center rounded-md shadow-lg shadow-slate-800 overflow-auto '>
                     <div className='w-full flex item-center justify-center bg-slate-700 bg-opacity-50 p-3'>
-                        <button className='text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B]  focus:bg-opacity-60 border-[#89CE3B] px-3 sm:px-8 border-r-2' onClick={() => setValue(1)} >BrillifyMe React App</button>
+                        <button className='text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B]  focus:bg-opacity-60 border-[#89CE3B] px-1 sm:px-8 border-r-2' onClick={() => setValue(1)} >BrillifyMe React App</button>
 
-                        <button className='text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B] focus:bg-opacity-60 border-[#89CE3B] px-3 sm:px-8 border-r-2' onClick={() => setValue(2)}>Table Booking App</button>
+                        <button className='text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B] focus:bg-opacity-60 border-[#89CE3B] px-1 sm:px-8 border-r-2' onClick={() => setValue(2)}>Table Booking App</button>
 
-                        <button className='text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B] px-3 sm:px-8 focus:bg-opacity-60' onClick={() => setValue(3)}>GMeet Extension</button>
+                        <button className='text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B] px-1 sm:px-8 focus:bg-opacity-60 border-r-2 border-[#89CE3B]' onClick={() => setValue(3)}>GMeet Extension</button>
+
+                        <button className='text-white text-base md:text-lg md:tracking-widest focus:bg-[#89CE3B] px-1 sm:px-8 focus:bg-opacity-60' onClick={() => setValue(4)}>Circular Slider</button>
                         {/* <button className='absloute  text-white text-lg tracking-wider focus:bg-[#89CE3B] focus:bg-opacity-60 border-r-2 border-[#89CE3B] px-8' onClick={() => setValue(3)}>Something</button> */}
 
                     </div>
@@ -32,7 +34,7 @@ function Projects() {
 
                         {/* <div className='flex flex-col w-full h-full m-auto border-amber-900 border-2'> */}
                         {project.map((item, index) => (item.id === val ?
-                            <div key={index} className="w-full h-full group rounded-md flex flex-col gap-2">
+                            <div key={index} className="w-full h-full group rounded-md flex flex-col gap-2 p-2">
 
                                 <div className='h-[243px] w-full group'>
                                     <div className='group-hover:hidden w-full 
